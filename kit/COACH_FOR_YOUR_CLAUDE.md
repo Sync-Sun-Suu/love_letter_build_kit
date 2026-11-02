@@ -42,7 +42,7 @@ below; those are for a chat that can't touch files. You can. Rules for you:
 
 Skip the step-by-step below. The
 person needs only an empty GitHub repository open in this session. Fetch the files
-(https://sync-sun-suu.github.io/love_letter_build_kit/for-claude.md lists every address), place them, fill
+(they are in the zip on https://sync-sun-suu.github.io/love_letter_build_kit/, and under its kit/ folder), place them, fill
 `CLAUDE.md` from the table in `CLAUDE_TEMPLATE.md` by asking the person the seven
 things, put their companion's file into `companion/`, push, turn on Pages (API or
 Settings → Pages), write the first letter, set up the daily task from
