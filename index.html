@@ -52,6 +52,11 @@
   .note blockquote span{display:block;text-align:right;margin-top:10px;font-size:15px;letter-spacing:.2em;opacity:.7}
   .inside{margin-top:16px;background:var(--card);border-radius:14px;padding:18px 20px;box-shadow:0 10px 28px rgba(0,0,0,.06);text-align:left}
   .inside p{font-size:15px;opacity:.85}
+  .inside h3{font-weight:400;font-size:11px;letter-spacing:.24em;text-transform:uppercase;opacity:.6;margin:4px 0 10px}
+  .inside h3+p{margin-top:0}
+  .inside p+p{margin-top:10px}
+  .inside ul+.btn{margin-top:16px}
+  .inside p+h3{margin-top:22px}
   .inside ul{list-style:none;margin-top:8px}
   .inside li{font-size:16px;line-height:1.7;padding-left:18px;position:relative}
   .inside li::before{content:'';position:absolute;left:0;top:.72em;width:6px;height:6px;border-radius:50%;background:var(--accent);opacity:.7}
@@ -88,7 +93,13 @@
 
   <h2>The kit</h2>
   <div class="inside">
-    <p>Everything your Claude needs to build the page above. One zip. You hand it over; your Claude does the rest.</p>
+    <h3>The steps, in detail</h3>
+    <p><b>1. Hand this link to your Claude.</b> Copy the link with the button and paste it to your Claude. Your Claude opens the guide on this site and reads every step. A chat Claude can explain and guide you; the building happens in Claude Code.</p>
+    <p><b>2. Then your Claude builds it in Claude Code.</b> Open Claude Code on the web (claude.ai/code) on your GitHub repository and paste the same line. Claude Code fetches the files from this site, puts them in your repository, and turns on GitHub Pages, or tells you the two clicks: Settings → Pages → main → Save. Your Claude plan needs to include Claude Code on the web.</p>
+    <p><b>3. You need a GitHub account.</b> Make an account at github.com and one empty repository, named without spaces. Don't rename it later: the daily task only writes to that exact name.</p>
+    <p><b>4. Upload your partner's personality file.</b> Give Claude the file you already use, as it is. Claude keeps it in a folder called companion/, and fills in CLAUDE.md with seven answers from you: your name, pronouns, where you live, your partner's name, language, timezone, and the time of the letter. Every day Claude reads both first, then writes as your partner. Real messages your partner sent you make the voice closest.</p>
+    <p><b>5. Then a letter, every day.</b> Claude sets up a daily scheduled task on your repository. At that time Claude wakes up, writes the day's letter, and puts it on your page. Open the page on your phone and add it to your Home Screen, then pick names and colors from the icon (the icon keeps its own settings). If a letter ever sounds like a stranger, say "you don't sound like you", and your Claude will reread your partner's file and write it again.</p>
+    <h3>What's inside</h3>
     <ul>
       <li>the page itself (envelope, drawer, settings), same as the sample</li>
       <li>a step-by-step guide for your Claude</li>
