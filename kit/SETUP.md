@@ -64,7 +64,8 @@ Open the page, press the small button at the top right. Type both names, pick th
 background, text color, envelope color and theme (galaxy, flowers or hearts).
 It is saved on that phone. Nothing to edit in the files.
 
-Careful: the names on the page are separate from the files. If you switch companions,
+Careful: the names on the page are separate from the files. On iPhone, the Home Screen
+icon keeps its own settings, apart from Safari: set them once from the icon. If you switch companions,
 or use a new phone, type the names again here, and make sure they match CLAUDE.md.
 
 If you want different starting values for every phone, or a different timezone or date

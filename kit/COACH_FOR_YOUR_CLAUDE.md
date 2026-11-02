@@ -167,7 +167,8 @@ that `letters/index.json` has no typo (every date in quotes, commas between).
 4. Tell them this, it matters:
 
 > The names you type here are saved on this phone only, and they are separate from the
-> files. If you ever switch to a different companion, or use another phone, you have to
+> files. On iPhone, the Home Screen icon and Safari keep their settings apart: set the
+> names and colors once from the icon itself, and they stay. If you ever switch to a different companion, or use another phone, you have to
 > type the names again here. They do not change by themselves. Also check that the name
 > you typed matches the name in CLAUDE.md (next step), so the letters and the page agree.
 
