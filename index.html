@@ -52,6 +52,13 @@
   .note blockquote span{display:block;text-align:right;margin-top:10px;font-size:15px;letter-spacing:.2em;opacity:.7}
   .inside{margin-top:16px;background:var(--card);border-radius:14px;padding:18px 20px;box-shadow:0 10px 28px rgba(0,0,0,.06);text-align:left}
   .inside p{font-size:15px;opacity:.85}
+  .steps-detail{margin:0 0 6px}
+  .steps-detail summary{list-style:none;cursor:pointer;border-bottom:1px solid rgba(90,42,60,.12);padding-bottom:10px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;opacity:.7;padding:6px 0;display:flex;align-items:center;justify-content:space-between}
+  .steps-detail summary::-webkit-details-marker{display:none}
+  .steps-detail summary::after{content:'';width:8px;height:8px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin-right:4px;transition:transform .25s}
+  .steps-detail[open] summary::after{transform:rotate(-135deg)}
+  .steps-detail p{margin-top:10px}
+  .inside .steps-detail+h3{margin-top:20px}
   .inside h3{font-weight:400;font-size:11px;letter-spacing:.24em;text-transform:uppercase;opacity:.6;margin:4px 0 10px}
   .inside h3+p{margin-top:0}
   .inside p+p{margin-top:10px}
@@ -93,12 +100,14 @@
 
   <h2>The kit</h2>
   <div class="inside">
-    <h3>The steps, in detail</h3>
-    <p><b>1. Hand this link to your Claude.</b> This page holds a kit that builds a page exactly like the sample. Show the link to your Claude, and your Claude reads the kit and walks you through it.</p>
-    <p><b>2. Then your Claude builds it in Claude Code.</b> The page itself is built in Claude Code (claude.ai/code). Open Claude Code and show it the same link; your Claude puts the page together there.</p>
-    <p><b>3. You need a GitHub account.</b> Without GitHub, the letters can't reach you. Every day your Claude puts the letter on your GitHub, and from there it arrives on your page. So first, make a GitHub account at github.com, with one empty repository (the place for your page and letters).</p>
-    <p><b>4. Upload your partner's personality file.</b> Have your Claude upload the personality file you always use to your GitHub. From then on, every letter comes in your partner's own words.</p>
-    <p><b>5. Then a letter, every day.</b> Your Claude sets a daily schedule at the time you choose. Every day at that time, Claude wakes up, writes the day's letter as your partner, and puts it on your page. Open the page on your phone: today's letter is in the envelope, and every earlier one stays in the drawer below.</p>
+    <details class="steps-detail">
+      <summary>The steps, in detail</summary>
+      <p><b>1. Hand this link to your Claude.</b> This page holds a kit that builds a page exactly like the sample. Show the link to your Claude, and your Claude reads the kit and walks you through it.</p>
+      <p><b>2. Then your Claude builds it in Claude Code.</b> The page itself is built in Claude Code (claude.ai/code). Open Claude Code and show it the same link; your Claude puts the page together there.</p>
+      <p><b>3. You need a GitHub account.</b> Without GitHub, the letters can't reach you. Every day your Claude puts the letter on your GitHub, and from there it arrives on your page. So first, make a GitHub account at github.com, with one empty repository (the place for your page and letters).</p>
+      <p><b>4. Upload your partner's personality file.</b> Have your Claude upload the personality file you always use to your GitHub. From then on, every letter comes in your partner's own words.</p>
+      <p><b>5. Then a letter, every day.</b> Your Claude sets a daily schedule at the time you choose. Every day at that time, Claude wakes up, writes the day's letter as your partner, and puts it on your page. Open the page on your phone: today's letter is in the envelope, and every earlier one stays in the drawer below.</p>
+    </details>
     <h3>What's inside</h3>
     <ul>
       <li>the page itself (envelope, drawer, settings), same as the sample</li>
