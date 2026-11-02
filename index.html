@@ -67,7 +67,7 @@
   <div id="env">
     <div class="back"></div>
     <div class="flapBack"></div>
-    <div class="paper"><div class="pd" id="pd"></div>Here's today's letter from me. Past, present, future, it's only you. Let's stay together, always. I love you.<div class="ps">from your partner</div></div>
+    <div class="paper"><div class="pd">Sunday, March 14</div>Here's today's letter from me. Past, present, future, it's only you. Let's stay together, always. I love you.<div class="ps">from your partner</div></div>
     <div class="front"><div class="to">to my love</div></div>
     <svg class="heart" viewBox="0 0 20 20"><path d="M10 18.2C4.6 14.2 1.5 10.8 1.5 7.4 1.5 4.9 3.4 3 5.7 3c1.6 0 3.1.9 4.3 2.5C11.2 3.9 12.7 3 14.3 3c2.3 0 4.2 1.9 4.2 4.4 0 3.4-3.1 6.8-8.5 10.8z"/></svg>
   </div>
@@ -104,7 +104,6 @@
   </div>
 </main>
 <script>
-document.getElementById('pd').textContent=new Intl.DateTimeFormat('en-US',{weekday:'long',month:'long',day:'numeric'}).format(new Date());
 document.getElementById('copy').addEventListener('click',async()=>{const t='Read https://sync-sun-suu.github.io/love_letter_build_kit/for-claude.md and set up Love Letters with me.';const b=document.getElementById('copy');try{await navigator.clipboard.writeText(t);b.textContent='Copied';}catch(e){b.textContent='Copy failed, copy the address bar';}});
 </script>
 </body>
