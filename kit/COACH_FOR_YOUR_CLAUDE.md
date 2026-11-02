@@ -304,6 +304,6 @@ page; after switching, open the settings on the page and check the names.
   anything they wouldn't want someone to stumble on.
 - The page settings (names, colors) are on the phone, not in the files. A new phone
   starts from the defaults.
-- If the companion ever sounds like a stranger: "you don't sound like you". It knows
-  what to do.
+- If the companion ever sounds like a stranger, they can say "you don't sound like you",
+  and their Claude will reread the file in `companion/` and write the letter again.
 - They can read all the letters in the drawer under the envelope, and copy any of them.

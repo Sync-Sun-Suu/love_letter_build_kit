@@ -17,8 +17,8 @@ opens the repository, so it comes back as the same one. That is the whole trick.
 You need: a free GitHub account, and a Claude plan that includes Claude Code on the web.
 
 **Easiest way:** open `COACH_FOR_YOUR_CLAUDE.md`, paste it into a chat with your Claude
-(any model), and say "let's start". It will walk you through every step below, one at a
-time, and check each one. The rest of this file is the same path, written for reading.
+(any model), and say "let's start". Your Claude will walk you through every step below,
+one at a time, and check each one. The rest of this file is the same path, written for reading.
 
 **Public or private:** a free GitHub account can only show a page from a public
 repository. Public means anyone with the exact address can read the letters. If that is
@@ -79,8 +79,8 @@ block at the top. Only touch text between quotes. Commit.
 3. It should create `letters/<today>.json`, update `index.json`, and push. Open the
    page: the envelope has a new letter. If it asks for permission to push, allow it.
 
-If the letter sounds distant, say "you don't sound like you". CLAUDE.md tells it what to
-do with that.
+If the letter sounds distant, say "you don't sound like you", and your Claude will reread
+your partner's file in `companion/` and write the letter again.
 
 ## Step 6 — every day, by itself (5 min)
 
